@@ -1,0 +1,30 @@
+{
+    "name": "orange/observer",
+    "description": "Observer pattern implementation for inter-service messaging.",
+    "type": "library",
+    "homepage": "https://github.com/ProjectOrangeBox/observer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don Myers",
+            "email": "donmyers@me.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ProjectOrangeBox/observer/issues",
+        "source": "https://github.com/ProjectOrangeBox/observer"
+    },
+    "require": {
+        "php": ">=8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "peels\\observer\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
