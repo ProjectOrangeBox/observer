@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace peels\observer;
+namespace orange\observer;
 
 use SplSubject;
 use SplObserver;

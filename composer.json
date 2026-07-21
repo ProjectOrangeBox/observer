@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "peels\\observer\\": "src/"
+            "orange\\observer\\": "src/"
         }
     },
     "minimum-stability": "dev",

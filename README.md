@@ -6,8 +6,8 @@ Minimal Observer pattern built directly on PHP's built-in `SplSubject`/`SplObser
 
 ```php
 use SplSubject;
-use peels\observer\Server;
-use peels\observer\Client;
+use orange\observer\Server;
+use orange\observer\Client;
 
 class JobQueue extends Server
 {
