@@ -9,11 +9,8 @@ use SplObserver;
 
 abstract class Client implements SplObserver
 {
-    private SplSubject $server;
-
-    public function __construct(SplSubject $server)
+    public function __construct(private readonly SplSubject $server)
     {
-        $this->server = $server;
         $this->server->attach($this);
     }
 
