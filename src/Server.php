@@ -9,6 +9,7 @@ use SplObserver;
 
 abstract class Server implements SplSubject
 {
+    /** @var array<string, SplObserver> keyed by spl_object_hash() */
     private array $observers = [];
 
     public function attach(SplObserver $observer): void
